@@ -32,6 +32,13 @@ Install Path | Description
 
 A Linux operating system is required. The GUI uses the Tcl/Tk scripting toolkit, and the CORE daemon requires Python. Details of the individual software packages required can be found in the installation steps.
 
+```shell
+sudo apt-get install bridge-utils ebtables \
+  iproute libev-dev python python-setuptools python-sphinx \
+  tcl8.5 tk8.5 libtk-img autoconf automake gcc libev-dev make python-dev \
+  libreadline-dev pkg-config imagemagick help2man
+```
+
 ## Required Hardware
 
 Any computer capable of running Linux should be able to run CORE. Since the physical machine will be hosting numerous virtual machines, as a general rule you should select a machine having as much RAM and CPU resources as possible.
